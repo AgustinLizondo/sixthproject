@@ -96,3 +96,7 @@ makingProduct();
 //         }
 //     }
 // });
+
+
+// $bought.appendChild($productCard);
+// $pendingOrder.removeChild($productCard);

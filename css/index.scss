@@ -17,10 +17,10 @@ $bought: #43aa8b;
 }
 body {
   background: #fdfdff;
-  & > h2 {
+  .pendingOrders > h2, .bought > h2, .outOfStock > h2 {
     text-align: center;
     margin: 1rem 0.5rem 0.5rem 0.5rem;
-    padding: 1rem;
+    padding: 1rem 7rem;
     background: #393d3f;
     border-radius: 1rem;
   }

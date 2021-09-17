@@ -19,10 +19,10 @@ body {
   background: #fdfdff;
 }
 
-body > h2 {
+body .pendingOrders > h2, body .bought > h2, body .outOfStock > h2 {
   text-align: center;
   margin: 1rem 0.5rem 0.5rem 0.5rem;
-  padding: 1rem;
+  padding: 1rem 7rem;
   background: #393d3f;
   border-radius: 1rem;
 }
