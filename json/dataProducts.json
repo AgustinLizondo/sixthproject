@@ -39,7 +39,7 @@
         "name":"RETRO MIX",
         "size":"50",
         "buyer":"Nay",
-        "price":"",
+        "price":"1910",
         "adress":"Moron 3100",
         "src":"https://admin.locasplr.com.ar/Content/UploadDirectory/Products/647/image_6173ee5b-ca2e-44e0-a1a7-6ffd7ebbc2c5.jpg"
     }, {
@@ -78,12 +78,12 @@
         "adress":"Bogotá 3365 LC21",
         "src":"https://panemjeans.com/wp-content/uploads/2019/07/jean-blancodos2-600x899.jpg"
     }, {
-        "name":"",
-        "size":"",
+        "name":"Jogger Verde",
+        "size":"48",
         "buyer":"",
         "price":"",
         "adress":"",
-        "src":""
+        "src":"./imgs/joggerVerde.jpg"
     }, {
         "name":"",
         "size":"",

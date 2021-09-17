@@ -1,5 +1,8 @@
 @import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@600&display=swap");
 
+$outOfStock: #f94144;
+$bought: #43aa8b;
+
 * {
   margin: 0;
   padding: 0;
@@ -14,6 +17,13 @@
 }
 body {
   background: #fdfdff;
+  & > h2 {
+    text-align: center;
+    margin: 1rem 0.5rem 0.5rem 0.5rem;
+    padding: 1rem;
+    background: #393d3f;
+    border-radius: 1rem;
+  }
 }
 header {
   width: 100vw;
@@ -53,11 +63,30 @@ header {
     margin: 0.5rem 0;
   }
   div {
-    margin: 0.5rem 0;
+    margin: .5rem 0;
     width: 75vw;
     background: #393d3f;
     padding: 1rem 2rem;
     border-radius: 1.5rem;
+    .boughtHidden {
+      display: none;
+    }
+    .boughtAlert {
+      width: 60vw;
+      padding: 6rem 2rem;
+      border-radius: 1rem;
+      background: $bought;
+      color: #393d3f;
+      box-shadow: 1px 1px 2px #333;
+    }
+    .outOfStockAlert {
+      width: 60vw;
+      padding: 6rem 2rem;
+      border-radius: 1rem;
+      background: $outOfStock;
+      color: #c6c5b9;
+      box-shadow: 1px 1px 2px #333;
+    }
     img {
       display: block;
       margin: 0.5rem auto;
@@ -76,8 +105,8 @@ header {
       padding: 0.5rem;
       margin: 0.25rem auto;
       display: flex;
-      justify-content: center;
-      align-items: center;
+      border: thin solid #393d3f;
+      outline: none;
     }
   }
 }

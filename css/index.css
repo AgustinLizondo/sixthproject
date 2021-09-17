@@ -19,6 +19,14 @@ body {
   background: #fdfdff;
 }
 
+body > h2 {
+  text-align: center;
+  margin: 1rem 0.5rem 0.5rem 0.5rem;
+  padding: 1rem;
+  background: #393d3f;
+  border-radius: 1rem;
+}
+
 header {
   width: 100vw;
   display: -webkit-box;
@@ -74,11 +82,35 @@ header i {
 }
 
 .pendingOrders div {
-  margin: 0.5rem 0;
+  margin: .5rem 0;
   width: 75vw;
   background: #393d3f;
   padding: 1rem 2rem;
   border-radius: 1.5rem;
+}
+
+.pendingOrders div .boughtHidden {
+  display: none;
+}
+
+.pendingOrders div .boughtAlert {
+  width: 60vw;
+  padding: 6rem 2rem;
+  border-radius: 1rem;
+  background: #43aa8b;
+  color: #393d3f;
+  -webkit-box-shadow: 1px 1px 2px #333;
+          box-shadow: 1px 1px 2px #333;
+}
+
+.pendingOrders div .outOfStockAlert {
+  width: 60vw;
+  padding: 6rem 2rem;
+  border-radius: 1rem;
+  background: #f94144;
+  color: #c6c5b9;
+  -webkit-box-shadow: 1px 1px 2px #333;
+          box-shadow: 1px 1px 2px #333;
 }
 
 .pendingOrders div img {
@@ -105,10 +137,6 @@ header i {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  border: thin solid #393d3f;
+  outline: none;
 }
