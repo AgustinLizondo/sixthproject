@@ -58,8 +58,8 @@ const makingProduct = () => {
                                 $productBought.classList.add('boughtAlert');
                                 $productBought.textContent = 'Bought';
                                 $productCard.removeChild($outOfStockButton);
-                                $productCard.removeChild($boughtButton);
-                            } else {
+                                $productCard.removeChild($boughtButton); 
+                            } else if (evt.target.textContent === 'Out of Stock') {
                                 $productCard.replaceChild($productBought, $productImg);
                                 $productBought.classList.toggle('boughtHidden');
                                 $productBought.classList.remove('boughtAlert');
