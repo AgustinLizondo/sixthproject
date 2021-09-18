@@ -80,9 +80,9 @@
     }, {
         "name":"Jogger Verde",
         "size":"48",
-        "buyer":"",
-        "price":"",
-        "adress":"",
+        "buyer":"Aldana",
+        "price":"1200",
+        "adress":"Concorida 360 LC3",
         "src":"./imgs/joggerVerde.jpg"
     }, {
         "name":"",
