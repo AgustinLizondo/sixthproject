@@ -83,6 +83,7 @@
         "buyer":"Aldana",
         "price":"1250",
         "adress":"Concorida 360 LC3",
+        "sadress2": "Bogota 3186 LC2",
         "src":"./imgs/joggerVerde.jpg"
     }, {
         "name":"",
