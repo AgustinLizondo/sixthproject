@@ -36,12 +36,19 @@
         "adress":"Bogotá 3121",
         "src":"https://d2r9epyceweg5n.cloudfront.net/stores/001/059/324/products/whatsapp-image-2021-08-11-at-08-38-48-11-55e051deaa7033715516286875339344-640-0.jpeg"
     }, {
-        "name":"RETRO MIX",
+        "name":"Retro Mix",
         "size":"50",
         "buyer":"Nay",
         "price":"1910",
         "adress":"Moron 3100",
         "src":"https://admin.locasplr.com.ar/Content/UploadDirectory/Products/647/image_6173ee5b-ca2e-44e0-a1a7-6ffd7ebbc2c5.jpg"
+    }, {
+        "name":"Denim Play ",
+        "size":"50",
+        "buyer":"Nay",
+        "price":"2100",
+        "adress":"Moron 3100",
+        "src":"./imgs/jeanLasLocas.jpg"
     }, {
         "name":"Short Penguin Salmon",
         "size":"XL",
@@ -86,33 +93,35 @@
         "sadress2": "Bogota 3186 LC2",
         "src":"./imgs/joggerVerde.jpg"
     }, {
-        "name":"",
-        "size":"",
-        "buyer":"",
-        "price":"",
-        "adress":"",
-        "src":""
+        "name":"Gorra NY Blanca",
+        "size":"X",
+        "buyer":"Amadeo",
+        "price":"399",
+        "adress":"Avellaneda 3185",
+        "sadress2": "Bacacay 3474 LC29",
+        "src":"https://img.avellanedaaltoque.com/productos/734941/1.jpg"
     }, {
-        "name":"",
-        "size":"",
-        "buyer":"",
-        "price":"",
-        "adress":"",
-        "src":""
+        "name":"Jeans Oxford Blue",
+        "size":"36/38",
+        "buyer":"Ornella",
+        "price":"1450",
+        "adress":"Concordia 412",
+        "sadress": "Avellaneda 3485 LC25",
+        "src":"https://d3ugyf2ht6aenh.cloudfront.net/stores/001/206/232/products/_13021-5059e8d96cfda4ad7016285976619970-640-0.jpg"
     }, {
-        "name":"",
-        "size":"",
-        "buyer":"",
-        "price":"",
-        "adress":"",
-        "src":""
+        "name":"Jean Nissie Suiza",
+        "size":"46",
+        "buyer":"Hilda",
+        "price":"1750",
+        "adress":"Bogotá 3121",
+        "src":"https://d2r9epyceweg5n.cloudfront.net/stores/001/059/324/products/193101242_884310705534985_7631618330276831292_n1-d5e20d3bcf552f0e7616228208806999-240-0.jpg"
     }, {
-        "name":"",
-        "size":"",
-        "buyer":"",
-        "price":"",
-        "adress":"",
-        "src":""
+        "name":"Wide Leg Kiotto",
+        "size":"38",
+        "buyer":"Agua",
+        "price":"1800",
+        "adress":"Bogotá 3121",
+        "src":"https://d2r9epyceweg5n.cloudfront.net/stores/001/059/324/products/whatsapp-image-2021-07-20-at-13-49-131-86d94957eec5c7bf5a16268007792685-640-0.jpeg"
     }, {
         "name":"",
         "size":"",
